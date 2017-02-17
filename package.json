@@ -1,0 +1,29 @@
+{
+  "name": "merest-sample-population",
+  "version": "1.0.0",
+  "description": "Let's guess we need to lookup for a field values in separate collection.\r **Mongoose** allows us to do so by using method `populate` of `Model` and\r `Document` instancies.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Dmitry Scheglov <Dmitry.Scheglov@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "merest": "^1.2.1",
+    "merest-swagger": "^1.0.4",
+    "method-override": "^2.3.7",
+    "mongoose": "^4.8.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DScheglov/merest-sample-population-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DScheglov/merest-sample-population-/issues"
+  },
+  "homepage": "https://github.com/DScheglov/merest-sample-population-#readme"
+}
