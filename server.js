@@ -15,7 +15,7 @@ const Book = mongoose.model('Book');
 const Person = mongoose.model('Person');
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/merest-sample');
+mongoose.connect(config.db);
 
 Book.remove({})
   .then( () => Person.remove({}) )
